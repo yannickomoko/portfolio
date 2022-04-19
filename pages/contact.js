@@ -17,7 +17,7 @@ export default function Contact() {
             </p>
           </div>
           <div className="w-1/2 p-10">
-              <div className="flex flex-wrap bg-red-900">
+              <div className="flex flex-wrap">
                 <form action="">
                     <div className="">
                       <input
