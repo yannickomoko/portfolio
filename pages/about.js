@@ -49,31 +49,31 @@ export default function About() {
                   <h3 className="font-semibold text-[15px]">Bonamoussadi</h3> 
                 </div>
             </div>
-              <div className="mt-3 grid grid-cols-2 gap-4">
-                  <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
-                    <label className="text-red-500 font-bold text-[35px]">9+</label>
-                    <h3 className="text-[20px] uppercase p-5 m-5 font-light">years of experience</h3>
-                  </div>
-                  <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
-                    <label className="text-red-500 font-bold text-[35px]">105+</label>
-                    <h3 className="text-[20px] uppercase p-5 m-5 font-light">completed projects</h3>
-                  </div>
-                  <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
-                    <label className="text-red-500 font-bold text-[35px]">85+</label>
-                    <h3 className="text-[20px] uppercase p-5 m-5 font-light">happy customers</h3>
-                  </div>
-                  <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
-                    <label className="text-red-500 font-bold text-[35px]">15+</label>
-                    <h3 className="text-[20px] uppercase p-5 m-5 font-light">awards won</h3>
-                  </div>
-              </div>
+            <div className="mt-3 grid grid-cols-2 gap-4">
+                <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
+                  <label className="text-red-500 font-bold text-[35px]">9+</label>
+                  <h3 className="text-[20px] uppercase p-5 m-5 font-light">years of experience</h3>
+                </div>
+                <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
+                  <label className="text-red-500 font-bold text-[35px]">105+</label>
+                  <h3 className="text-[20px] uppercase p-5 m-5 font-light">completed projects</h3>
+                </div>
+                <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
+                  <label className="text-red-500 font-bold text-[35px]">85+</label>
+                  <h3 className="text-[20px] uppercase p-5 m-5 font-light">happy customers</h3>
+                </div>
+                <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
+                  <label className="text-red-500 font-bold text-[35px]">15+</label>
+                  <h3 className="text-[20px] uppercase p-5 m-5 font-light">awards won</h3>
+                </div>
+            </div>
        </div>
        
 
        <div className="mt-4 grid grid-cols-2">
-                  <h3 className="text-white uppercase text-center">my skills</h3>
-              </div>
-      
+            <h3 className="text-white uppercase text-[35px] font-bold mx-auto">my skills</h3>
+        </div>
+
      </PageLayout>
   );
 }
