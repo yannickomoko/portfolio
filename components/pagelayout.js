@@ -1,10 +1,11 @@
 import routes from "../routes/routes";
+import ThemeSwitch from "./theme";
 
 export default function PageLayout({ title, prefixe,  ...rest}) {
   return (
     <div className="flex p-10 gap-3 bg-black min-h-screen">
       <div className="container mx-auto">
-        <div className="text-[50px] text-white text-center font-bold uppercase">
+        <div className="text-[50px] text-white text-center font-extrabold uppercase">
           <h1>
             {prefixe} <span className="text-red-500">{title}</span>
           </h1>
@@ -38,6 +39,7 @@ export default function PageLayout({ title, prefixe,  ...rest}) {
         ))}
       </ul>
       </div>
+      <ThemeSwitch />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import blog from "../data/blog";
 export default function Blog() {
   return (
     <PageLayout prefixe="my" title="Blog">
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap px-10">
         {blog.map((ged) => (
           <div className="w-1/3 p-5">
               <div className="">
