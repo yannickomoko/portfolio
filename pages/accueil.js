@@ -14,7 +14,7 @@ export default function Accueil() {
         <div className="space-y-1">
           <h1 className="text-[50px] font-bold text-red-600 uppercase">
             i'm yannick omoko. <br />{" "}
-            <span className="text-white">web developer frontend</span>
+            <span className="text-white">Senior developer frontend</span>
           </h1>
           <p className="text-white text-lg">
             I'm a Camerounian based web designer & front‑end developer focused on

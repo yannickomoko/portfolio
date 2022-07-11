@@ -1,11 +1,17 @@
 const data = [
   
-  { name: "image portfolio", title: "cbc cameroun", img: "/images/page.png" },
-  { name: "image portfolio", title: "bicec cameroun", img: "/images/page.png" },
-  { name: "image portfolio", title: "total emploi rh", img: "/images/page.png" },
-  { name: "image portfolio", title: "societe generale", img: "/images/page.png" },
-  { name: "image portfolio", title: "cca bank", img: "/images/page.png" },
-  { name: "image portfolio", title: "acceegt", img: "/images/page.png" },  
+  { name: "image portfolio", title: "icietlabas", img: "/images/icietlabas.png" },
+  { name: "image portfolio", title: "Bicec cameroun", img: "/images/efacture.png" },
+  { name: "image portfolio", title: "danyexpress market", img: "/images/dany.png" },
+  { name: "image portfolio", title: "societe generale", img: "/images/s2c.png" },
+  { name: "image portfolio", title: "iwomitechnologies", img: "/images/iwomitech.png" },
+  { name: "image portfolio", title: "mosa pos", img: "/images/pos.png" },
+  { name: "image portfolio", title: "mycar237", img: "/images/mycar.png" }, 
+  { name: "image portfolio", title: "afrique libre", img: "/images/afrique.png" }, 
+  { name: "image portfolio", title: "iwomipay", img: "/images/iwomipay.png" }, 
+  { name: "image portfolio", title: "societe generale", img: "/images/sgc.png" },
+  { name: "image portfolio", title: "dream house construction", img: "/images/dream.png" },
+  { name: "image portfolio", title: "mosa sales app", img: "/images/mosapp.png" },
 ];
 
 
