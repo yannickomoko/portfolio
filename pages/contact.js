@@ -25,17 +25,17 @@ export default function Contact() {
           </p>
           <div className="mt-10">
             <div className="flex">
-              <FaAddressBook className="bg-red-800 text-4xl p-1 rounded" />
+              <FaAddressBook className="text-3xl bg-site-theme-primary-hover p-1 rounded" />
               <h3 className="uppercase font-thin text-white ml-4">
                 Address point
               </h3>
-              <p className="text-white font-semibold">
-                B.P 143 Logbessou, Douala - Cameroun
+              <p className="text-white font-semibold ml-4">
+                Logpom, Douala - Cameroun
               </p>
             </div>
             <div className="mt-8">
               <div className="flex">
-                <FiMail className="bg-red-800 text-4xl p-1 rounded" />
+                <FiMail className="text-3xl bg-site-theme-primary-hover p-1 rounded" />
                 <h3 className="uppercase font-thin text-white ml-4">Mail me</h3>
                 <p className="text-white font-semibold ml-8">
                   oambiana@gmail.com
@@ -44,7 +44,7 @@ export default function Contact() {
             </div>
             <div className="mt-8">
               <div className="flex">
-                <FiPhone className="bg-red-800 text-4xl p-1 rounded" />
+                <FiPhone className="text-3xl bg-site-theme-primary-hover p-1 rounded" />
                 <h3 className="uppercase font-thin text-white ml-4">Call me</h3>
                 <p className="text-white font-semibold ml-8">
                   237 699053526 / 237 677049783
@@ -52,10 +52,10 @@ export default function Contact() {
               </div>
             </div>
             <div className="flex space-x-4 mt-6">
-              <FaFacebook className="bg-red-600 text-4xl p-2 rounded-full text-white cursor-pointer " />
-              <FaTwitter className="rounded-full bg-red-600 text-white text-4xl p-2 cursor-pointer" />
-              <FaLinkedin className="rounded-full bg-red-600 text-white text-4xl p-2 cursor-pointer" />
-              <FaInstagram className="rounded-full bg-red-600 text-white text-4xl p-2 cursor-pointer" />
+              <FaFacebook className="bg-gray-600 hover:bg-site-theme-primary-color text-4xl p-2 rounded-full text-white cursor-pointer " />
+              <FaTwitter className="rounded-full bg-gray-600 hover:bg-site-theme-primary-color text-white text-4xl p-2 cursor-pointer" />
+              <FaLinkedin className="rounded-full bg-gray-600 hover:bg-site-theme-primary-color text-white text-4xl p-2 cursor-pointer" />
+              <FaInstagram className="rounded-full bg-gray-600 hover:bg-site-theme-primary-color text-white text-4xl p-2 cursor-pointer" />
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="flex justify-start w-full ml-3">
-              <button class="mt-9 text-base font-semibold leading-none uppercase text-white py-4 px-10 rounded-full border-red-600 hover:bg-red-700 border focus:ring-2 focus:ring-offset-2 focus:ring-red-700 focus:outline-none">
+              <button class="mt-9 text-base font-semibold leading-none uppercase text-white py-4 px-10 rounded-full border-site-theme-primary-color hover:bg-site-theme-primary-color border focus:ring-2 focus:ring-offset-2 focus:ring-site-theme-primary-color focus:outline-none">
                 send message
               </button>
             </div>

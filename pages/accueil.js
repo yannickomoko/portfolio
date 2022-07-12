@@ -12,7 +12,7 @@ export default function Accueil() {
           />
         </div>
         <div className="space-y-1">
-          <h1 className="text-[50px] font-bold text-red-600 uppercase">
+          <h1 className="text-[50px] font-bold text-site-theme-primary-color uppercase">
             i'm yannick omoko. <br />{" "}
             <span className="text-white">Senior developer frontend</span>
           </h1>

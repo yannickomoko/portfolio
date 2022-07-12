@@ -10,9 +10,9 @@ export default function Blog() {
               <div className="">
                 <img src={ged.img} className="rounded" />
               </div>
-              <div className="bg-red-600 divide-x-2 h-2"></div>
+              <div className="divide-x-2 h-2 bg-site-theme-primary-color"></div>
               <div className="text-center text-lg text-white bg-gray-700 py-5 rounded">
-                <h1 className="text-2xl font-bold">{ged.title}</h1>
+                <h1 className="text-2xl font-bold cursor-pointer">{ged.title}</h1>
                 <p className="mt-3">
                   {ged.desc}.
                 </p>

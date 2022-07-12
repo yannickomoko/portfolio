@@ -3,9 +3,6 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import { FiDownload } from "react-icons/fi";
 import { AiFillHtml5 } from "react-icons/ai";
 
-
-const pourcentqge = 60;
-
 export default function About() {
   return (
      <PageLayout title="me" prefixe="about">
@@ -57,24 +54,24 @@ export default function About() {
             </div>
             <div className="mt-3 grid grid-cols-2 gap-4">
                 <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
-                  <label className="text-red-500 font-bold text-[35px]">7+</label>
+                  <label className="text-site-theme-primary-color font-bold text-[35px]">7+</label>
                   <h3 className="text-[20px] uppercase p-5 m-5 font-light">years of experience</h3>
                 </div>
                 <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
-                  <label className="text-red-500 font-bold text-[35px]">65+</label>
+                  <label className="text-site-theme-primary-color font-bold text-[35px]">65+</label>
                   <h3 className="text-[20px] uppercase p-5 m-5 font-light">completed projects</h3>
                 </div>
                 <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
-                  <label className="text-red-500 font-bold text-[35px]">85+</label>
+                  <label className="text-site-theme-primary-color font-bold text-[35px]">85+</label>
                   <h3 className="text-[20px] uppercase p-5 m-5 font-light">happy customers</h3>
                 </div>
                 <div className="text-white rounded h-32 flex p-3 space-x-4 border border-gray-600">
-                  <label className="text-red-500 font-bold text-[35px]">10+</label>
+                  <label className="text-site-theme-primary-color font-bold text-[35px]">10+</label>
                   <h3 className="text-[20px] uppercase p-5 m-5 font-light">awards won</h3>
                 </div>
             </div>
             <div className="flex justify-start w-full">
-              <button class="mt-5 text-base font-semibold leading-none uppercase text-white py-4 px-10 rounded-full border-red-600 hover:bg-red-700 border focus:ring-2 focus:ring-offset-2 focus:ring-red-700 focus:outline-none">
+              <button class="mt-5 text-base font-semibold leading-none uppercase text-white py-4 px-10 rounded-full border-site-theme-primary-color hover:bg-site-theme-primary-color border focus:ring-2 focus:ring-offset-2 focus:ring-site-theme-primary-color focus:outline-none">
                 Download CV
               </button>
             </div>
