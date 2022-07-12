@@ -41,13 +41,7 @@ export default function Portfolio() {
                   </div>
                   {/*body*/}
                   <div className="relative p-6 flex-auto">
-                    <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                      I always felt like I could do anything. That’s the main
-                      thing people are controlled by! Thoughts- their perception
-                      of themselves! They're slowed down by their perception of
-                      themselves. If you're taught you can’t do anything, you
-                      won’t do anything. I was taught I could do everything.
-                    </p>
+                    <iframe class="w-full aspect-video ..." src="https://www.youtube.com/..."></iframe>
                   </div>
                 </div>
             </div>
